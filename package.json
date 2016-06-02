@@ -1,0 +1,17 @@
+{
+  "name": "purplest-inc-dark-ui",
+  "theme": "ui",
+  "version": "1.0.0",
+  "description": "A dark UI theme for Atom by Purplest, Inc.",
+  "keywords": [
+    "ui",
+    "theme",
+    "purple",
+    "dark"
+  ],
+  "license": "MIT",
+  "repository": "https://github.com/PurplestInc/purplest-inc-dark-ui",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
