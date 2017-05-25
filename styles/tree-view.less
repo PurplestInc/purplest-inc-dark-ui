@@ -10,9 +10,9 @@
  * (https://github.com/PurplestInc)
  * (https://github.com/RobDukarski)
  *
- * @version 1.0.0 (06/02/16)
+ * @version 1.0.1 (05/25/17)
  * @license MIT
- * @copyright (c) 2016 Purplest, Inc.
+ * @copyright (c) 2017 Purplest, Inc.
  * (https://purplest.com)
  * ============================================================================
  */
@@ -47,6 +47,11 @@
       position: relative;
       z-index: 3;
     }
+  }
+
+  .list-tree {
+    max-height: 30px;
+    padding: 0;
   }
 }
 
@@ -92,9 +97,9 @@
   cursor: pointer;
 }
 
-
 .tree-view .list-item {
   display: block;
+  padding-left: 8px;
   padding-right: 18px;
 }
 
@@ -136,14 +141,7 @@
   cursor: pointer;
 
   &::before {
-    background-color: @tree-view-item-background-color-hover;
-    box-shadow: inset -1px 0   0 0 @base-border-color,
-                inset  0   1px 0 0 @base-border-color,
-                       0   1px 0 0 @base-border-color;
     height: 30px;
-    left: 0;
-    position: absolute;
-    right: 0;
     z-index: 1;
   }
 
@@ -161,9 +159,6 @@
 
 .tree-view .directory .header.list-item:hover {
   background-color: @tree-view-item-background-color-hover;
-  box-shadow: inset -1px 0   0 0 @base-border-color,
-              inset  0   1px 0 0 @base-border-color,
-                     0   1px 0 0 @base-border-color;
   color: @text-color-highlight;
   cursor: pointer;
   position: relative;

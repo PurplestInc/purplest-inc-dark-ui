@@ -10,9 +10,9 @@
  * (https://github.com/PurplestInc)
  * (https://github.com/RobDukarski)
  *
- * @version 1.0.0 (06/02/16)
+ * @version 1.0.1 (05/25/17)
  * @license MIT
- * @copyright (c) 2016 Purplest, Inc.
+ * @copyright (c) 2017 Purplest, Inc.
  * (https://purplest.com)
  * ============================================================================
  */
@@ -48,6 +48,10 @@ atom-text-editor[mini].is-focused::shadow {
 // FIXME: these should go in syntax themes?
 atom-text-editor,
 atom-text-editor::shadow {
+  .gutter-container .gutter:first-child {
+    box-shadow: 1px 0 0 0 @base-border-color;
+  }
+
   .gutter.drop-shadow {
     -webkit-box-shadow: -2px 0 10px 2px #222;
   }
