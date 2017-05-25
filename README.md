@@ -1,4 +1,4 @@
-# Purplest, Inc. Dark Theme - UI [1.0.0]
+# Purplest, Inc. Dark Theme - UI [1.0.2]
 
 A dark UI theme for Atom by Purplest, Inc.
 
